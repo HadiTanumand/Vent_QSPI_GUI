@@ -19,4 +19,5 @@ void SettingScreenView::getPrevPageName(char pageName)
 	Unicode::snprintf(textArea12Buffer, TEXTAREA12_SIZE , "%c", pageName);
 	textArea12.setWildcard1(textArea12Buffer);
 	textArea12.invalidate();
+	//comment
 }
